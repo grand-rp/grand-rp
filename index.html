@@ -1,224 +1,251 @@
 <!DOCTYPE html>
-<html lang="ro">
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Grand Community</title>
-    <meta name="keywords" content="roleplay, Grand, Grandrp, Grand-rp, vrp, gamemode, fivem, fivemserver, server" />
-    <meta name="description" content="Comunitatea Grand a fost fondata in anul 2023, de la pasionati, pentru pasionati de roleplay. Dorim sa oferim jucatorilor de FiveM (GTA:V MP) un loc unde distractia sa domine si un server de joc bine administrat." />
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="assets/css/style.css" rel="stylesheet">
+<html lang="en">
 
-    <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
-    <link rel="manifest" href="icons/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Grand RP: FiveM</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="icon" href="favicon.png" type="image/png" />
+
+    <!-- OG -->
+    <meta property="og:title" content="Grand RP: FiveM" />
+    <meta property="og:description" content="Grand Roleplay: Gandit de jucatori, pentru jucatori." />
+    <meta property="og:type" content="image/jpeg" />
+    <meta property="og:image:width" content="50px" />
+    <meta property="og:image:height" content="50px" />
+    <meta property="og:url" content="https://grand-rp.ro" />
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+    <style>
+        body {
+            opacity: 0;
+            overflow-x: hidden;
+        }
+
+        html {
+            background-color: #fff;
+        }
+    </style>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.min.css" />
+
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/app.js"></script>
+
 </head>
 
-<body id="main_anchor" class="home">
+<body>
 
 
-<header class='header'>
-    <div class='header-container'>
-        <div class='header-logo'>
-            <a href='#'><img src='assets/images/logo.png' alt=''></a>
+    <section class="loader">
+        <div class="loader-block">
+            <svg class="loader-circular" viewBox="25 25 50 50">
+                <circle class="loader-path" cx="50" cy="50" r="20" fill="none" stroke="#70c542" stroke-width="2" />
+            </svg>
         </div>
-        <div class='header-right'>
-            <div class='header-menu'>
-                <nav class='header-nav'>
-                    <div class='header-nav-close'></div>
-                    <ul class='header-nav-list'>
-                        <li><a href='#'>Acasă</a></li>
-						<li><a href='https://ucp.Grand-rp.ro'>&nbsp;&nbsp;&nbsp;&nbsp;UCP</a></li>
-                        <li><a href='https://store.Grand-rp.ro'>Magazin</a></li>
-                    </ul>
-                </nav>
+    </section>
+
+    <section class="intro-screen">
+        <div class="bg-news">
+            <img src="img/bg-news.jpg" alt="">
+        </div>
+        <div class="container">
+            <div class="row">
+
+                <div class="header header-intro">
+                    <!--<div class="logo">
+                        <a href="index.html">
+                            <img src="https://cdn.discordapp.com/attachments/1106558983378055338/1106695692405178409/relaxAltceva.png"
+                                alt="Grd">
+                        </a>
+                    </div>-->
+
+                    <div class="toggle">
+                        <a class="menu-triger"></a>
+                    </div>
+
+                    <div class="navigation menu-popup">
+                        <a class="menu-close"></a>
+                        <ul class="nav">
+                            <li class="nav-links active-nav-link"><a href="#">Acasă</a></li>
+                            <li class="nav-links"><a href="https://discord.gg/qZURNkwN2y">Contactează-ne</a></li>
+                            <li class="nav-links"><a href="rules.html">Regulament</a></li>
+                            <li class="store-link"><a href="https://shop.grand-rp.ro">Magazin <img
+                                        src="img/basket-icon.svg" alt=""></a></li>
+                            <li class="store-link"><a href="https://discord.gg/qZURNkwN2y">Discord <img
+                                        src="img/basket-icon.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="intro-block">
+
+                    <div class="container-blog">
+
+                        <div class="title-all title-store">
+                            <h2>Cum încep să mă joc?</h2>
+                        </div>
+
+                        <div class="youtube-blogers">
+                        </div>
+
+                    </div>
+                                        
+                    <div class="containe2r-instruction">
+					</div>
+
+					<div class="container-instruction">
+						<div class="left-side">
+							<img src="img/img-2-3.png" alt="">
+						</div>
+                        <div class="right-side">
+							<div class="step">
+								<div class="number">1</div>
+								<div class="text-s">Step</div>
+							</div>
+							<div class="title-step">
+								Descarcă GTA V
+							</div>
+							<div class="sub-text">
+								Descărcați și instalați jocul GTA V (Steam sau Social Club). Pentru a intra pe serverul noastru, aveți nevoie doar de un joc licențiat.
+							</div>
+							<div class="btn-buy">
+								<a href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/" target="_blank" id="buy_gta_v">Achiziționează GTA V</a>
+							</div>
+						</div>
+						<div class="right-side">
+							<div class="step">
+								<div class="number">2</div>
+								<div class="text-s">Step</div>
+							</div>
+							<div class="title-step">
+								Descarcă FiveM
+							</div>
+							<div class="sub-text">
+								Descărcarea clientului FiveM se poate face accesând fivem.net, după ce ați descărcat jocul asigurați-va să va înregistrați.
+							</div>
+							<div class="btn-buy">
+								<a href="https://fivem.net" target="_blank" id="download_launcher">Către FiveM</a>
+							</div>
+						</div>
+					</div>
+
+                    
+                    <div class="container-blog">
+
+                        <div class="title-all title-store">
+                            <h2>Despre noi</h2>
+                        </div>
+
+                        <div class="youtube-blogers">
+                        </div>
+
+                    </div>
+                    
+                    <div class="container-instruction">
+                        <div class="left-side">
+							<img src="img/img-2-3.png" alt="">
+                            <img src="img/img-1-3.png" alt="">
+                            <img src="img/img-1-3.png" alt="">
+						</div>
+                        <div class="right-side">
+                            <div class="title-step">
+								Despre noi
+                            </div>
+                            <div class="sub-text">
+                                Gândit de jucători, pentru jucători, serverul nostru este conceput să
+                                ofere un loc distractiv pentru toți pasionații de Grand Theft Auto: V MP
+                                (FiveM).<br><br>
+                                <p
+                                    style="user-select: all; border-radius: 20px; color: black; background: #ffbc1c; -webkit-box-shadow: 0 3px 15px rgba(93, 54, 222, .45); box-shadow: 0 3px 15px rgba(93, 54, 222, .45); font-size: 14px; padding: 10px; text-align: center;">
+                                    Grand RP: FiveM - RPG</p>
+                                <p
+                                    style="user-select: all; border-radius: 20px; color: black; background: #ffbc1c; -webkit-box-shadow: 0 3px 15px rgba(93, 54, 222, .45); box-shadow: 0 3px 15px rgba(93, 54, 222, .45); padding: 10px; text-align: center;">
+                                    server.grand-rp.ro</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
             </div>
         </div>
-        <a href='#' class='header-nav-trigger'>
-            <span class='header-nav-trigger-line'></span>
-            <span class='header-nav-trigger-line'></span>
-            <span class='header-nav-trigger-line'></span>
-        </a>
-    </div>
-</header>
 
-<div class="news-list"></div>
+    </section>
 
-<div class="index_row">
-    <div class="index_row_box">
-        <section class="section_frst_row">
-            <div class="section_left_row">
-                <img src="assets/images/mans/index_man.jpg" alt="default">
-            </div>
-            <div class="section_right_row home-right-row-center">
-                <div class="description">
-                    <p>Grand România — Home of roleplay on FiveM (GTA V).</p>
-                    <p>Suntem aici din pasiune și ne dorim să va oferim un loc unde distracția să domine, de la pasionați, pentru pasionați de roleplay!</p>
-                </div>
-                <div class="butt_social">
-                    <a href="" class="start-to-play">Începe să joci</a>
-                    <div class="soc_img">
-                        <a target="_blank" href="https://www.youtube.com/@"><i class="fab fa-youtube"></i></a>
-                        <a target="_blank" href="https://discord.gg/Grandrp"><i class="fab fa-discord"></i></a>
+    <script>
+        fbq('trackCustom', 'ShareDiscount', { promotion: 'start_play' });
+
+        $('#buy_gta_v').on('click', function () {
+            fbq('trackCustom', 'ShareDiscount', { promotion: 'buy_game' });
+        })
+
+        $('#download_launcher').on('click', function () {
+            fbq('track', 'Purchase');
+        })
+    </script>
+
+
+
+    <footer class="footer-intro">
+        <div class="container">
+            <div class="row">
+                <div class="container-footer">
+                    <div class="left-side">
+                        <ul class="nav-footer">
+                            <li><a style="font-size: 10px;">Grand Roleplay is not affiliated with Rockstar North, Take-Two
+                                Interactive or other rightholders.</a></li>
+                        </ul>
                     </div>
-                </div>
-            </div>
-        </section>
-        <section class="section_scnd_row">
-            <div class="section_scnd_row_content">
-                <div class="section_scnd_left_row">
-                    <h2 class="title-decoration">
-                        <span>SERVER STATUS</span>
-                    </h2>
-                    <ul class="servers_list">
-                        <li>
-                            <div class="server_box" data-server-id="1">
-                                <div class="server_box_left_side">
-                                    <h3>01<p>PLAYERI</p></h3>
-                                    <span>0/000</span>
-                                </div>
-                                <div class="server_box_center_side">
-                                    <p>Server Online</p>
-                                    <h3>IP: server.Grand-rp.ro</h3>
-                                    <div class="server_box_members_percent">
-                                        <span style="width: 10%"></span>
-                                    </div>
-                                </div>
-                                <div class="server_box_right_side">
-                                    <a href="#" class="copy-server-ip" data-server-ip="server.Grand-rp.ro">
-                                        <img src="assets/images/svg/link-symbol-of-two-chains-links-linked-grey.svg" alt="прикрепить">
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="total-online">Media jucătorilor: <span>100</span></div>
-                </div>
-                <div class="section_scnd_right_row home-news">
-                    <h2 class="title-decoration">
-                        <span>STAY TUNNED</span>
-                    </h2>
-                    <ul class="news_row slick-init" id="news-list"></ul>
-                    <div class="new_js_article">
-                        <div class="new_js_article_nav"></div>
-                        <div class="more_news">
-                            <a href="https://discord.gg/Grandrp"><img src="assets/images/svg/icon.svg"> &nbsp;Noutăți despre server</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="index_thrd_row">
-            <div class="thrd_row_left_side">
-                <h1 class="h1_inrow title-decoration">
-                    <span>SUPPORT US</span>
-                </h1>
-                <ul class="thrd_row_social">
-                    <li>
-                        <div class="social_list">
-                            <div class="social_list_img">
-                                <img src="assets/images/mans/social_man_1.png">
-                            </div>
-                            <div class="social_list_info">
-                                <div class="social_list_info_box">
-                                    <h3>Join our Staff Team</h3>
-                                    <p id='count_official'>Puteți depune o cerere de alăturare în <span>echipa staff</span> a comunității noastre prin apăsarea butonului de mai jos.</p>
-                                    <a href="#" target="_blank">Aplică in Staff</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="social_list">
-                            <div class="social_list_img">
-                                <img src="assets/images/mans/social_man_2.png" class="soc_img_scnd">
-                            </div>
-                            <div class="social_list_info">
-                                <div class="social_list_info_box">
-                                    <h3>Add a Suggestion</h3>
-                                    <p id="count_private">Sugestiile din partea jucătorilor ne <span>ajută</span> la dezvoltarea serverului de joc.</p>
-                                    <a href="#" target="_blank">Adaugă sugestii</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="thrd_row_right_side home-start-to-play">
-                <h1 class="h1_inrow title-decoration">
-                    <span>HOW TO START PLAYING</span>
-                </h1>
-                <div class="thrd_row_right_side_row">
-                    <div class="thrd_row_right_side_border_box">
-                        <div class="thrd_row_right_side_border">
-                            <img src="assets/images/ice_screenshot_20181211-235945.png" alt="">
-                        </div>
-                    </div>
-                    <div class="thrd_row_right_side_list">
-                        <ul>
+                    <div class="right-side">
+                        <ul class="social">
+
                             <li>
-                                <div class="thrd_row_dowload">
-                                    <h3>1. Descarcă GTA V</h3>
-                                    <p>Descărcați și instalați jocul GTA V (Steam sau Social Club). Pentru a intra pe serverul noastru, aveți nevoie doar de un joc licențiat.</p>
-                                </div>
+                                <a href="https://discord.gg/qZURNkwN2y">
+                                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M21.9072 0C23.4304 0 24.6589 1.23175 24.7315 2.68125V26L21.8314 23.5376L20.2389 22.0881L18.5012 20.5736L19.2271 22.9623H4.01924C2.50041 22.9623 1.26758 21.8086 1.26758 20.28V2.68667C1.26758 1.23717 2.50258 0.00325 4.02466 0.00325H21.8997L21.9072 0ZM15.2794 6.15658H15.2469L15.0281 6.37325C17.2738 7.02325 18.3604 8.03833 18.3604 8.03833C16.9131 7.31467 15.6087 6.95283 14.3044 6.80658C13.3619 6.66033 12.4194 6.73725 11.6232 6.80658H11.4065C10.8973 6.80658 9.814 7.02325 8.36233 7.60283C7.85641 7.82275 7.56608 7.96683 7.56608 7.96683C7.56608 7.96683 8.65158 6.88133 11.0436 6.30175L10.8973 6.1555C10.8973 6.1555 9.08599 6.08617 7.13058 7.53133C7.13058 7.53133 5.17516 10.9373 5.17516 15.1363C5.17516 15.1363 6.2585 17.0213 9.23008 17.0928C9.23008 17.0928 9.66341 16.5154 10.1022 16.0073C8.43383 15.5003 7.78383 14.4863 7.78383 14.4863C7.78383 14.4863 7.929 14.5578 8.14674 14.703H8.21174C8.24425 14.703 8.25941 14.7193 8.27674 14.7355V14.742C8.29408 14.7593 8.30924 14.7745 8.34174 14.7745C8.69924 14.9218 9.05675 15.067 9.34925 15.2078C9.85408 15.4267 10.503 15.6444 11.2992 15.7885C12.3067 15.9348 13.4616 16.0052 14.7767 15.7885C15.4267 15.6423 16.0767 15.4993 16.7267 15.2089C17.1492 14.9923 17.6692 14.7756 18.2402 14.4105C18.2402 14.4105 17.5902 15.4245 15.8514 15.9315C16.2089 16.4363 16.7127 17.0148 16.7127 17.0148C19.6853 16.9498 20.8402 15.0648 20.9052 15.145C20.9052 10.9525 18.9389 7.54 18.9389 7.54C17.1677 6.22483 15.5102 6.175 15.2177 6.175L15.2783 6.15333L15.2794 6.15658ZM15.4614 10.9373C16.223 10.9373 16.8372 11.5873 16.8372 12.3836C16.8372 13.1853 16.2197 13.8353 15.4614 13.8353C14.7031 13.8353 14.0856 13.1853 14.0856 12.3901C14.0877 11.5884 14.7063 10.9406 15.4614 10.9406V10.9373ZM10.5398 10.9373C11.2982 10.9373 11.9113 11.5873 11.9113 12.3836C11.9113 13.1853 11.2938 13.8353 10.5355 13.8353C9.77716 13.8353 9.15966 13.1853 9.15966 12.3901C9.15966 11.5884 9.77716 10.9406 10.5355 10.9406L10.5398 10.9373Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
                             </li>
+
                             <li>
-                                <div class="thrd_row_dowload">
-                                    <h3>2. Descarcă FiveM</h3>
-                                    <p>Descărcarea clientului FiveM se poate face accesând <b>fivem.net</b>, după ce ați descărcat jocul asigurați-va să va înregistrați.</p>
-                                </div>
+                                <a href="https://youtube.com/@zeta6601/">
+                                    <svg width="38" height="26" viewBox="0 0 38 26" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M36.4254 4.01469C36.2098 3.24209 35.7985 2.53818 35.2313 1.97099C34.6642 1.40381 33.9602 0.992526 33.1876 0.776905C30.2879 2.22748e-05 18.6176 2.19971e-05 18.6176 2.19971e-05C18.6176 2.19971e-05 6.97677 -0.0154843 4.04757 0.776905C3.27497 0.992526 2.57106 1.40381 2.00387 1.97099C1.43668 2.53818 1.0254 3.24209 0.809782 4.01469C0.260103 6.98345 -0.010891 9.99709 0.000334932 13.0163C-0.00876881 16.0241 0.262216 19.0262 0.809782 21.9838C1.0254 22.7564 1.43668 23.4603 2.00387 24.0275C2.57106 24.5947 3.27497 25.0059 4.04757 25.2216C6.94421 26 18.6176 26 18.6176 26C18.6176 26 30.2569 26 33.1876 25.2216C33.9602 25.0059 34.6642 24.5947 35.2313 24.0275C35.7985 23.4603 36.2098 22.7564 36.4254 21.9838C36.9616 19.0251 37.2211 16.023 37.2008 13.0163C37.2232 9.99816 36.9637 6.98453 36.4254 4.01469ZM14.8929 18.5847V7.4308L24.6063 13.0163L14.8929 18.5847Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
                             </li>
-                            <li>
-                                <div class="thrd_row_dowload">
-                                    <h3>3. Conectarea pe server</h3>
-                                    <p>Vă puteți conecta pe serverul de joc oferit de comunitatea noastră căutând <b>Grand Roleplay</b> în lista serverelor de joc.<br>Asigurați-va de corespunderea imaginilor pentru a intra pe serverul corect.</p>
-                                </div>
-                            </li>
+
                         </ul>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="section_footer">
-            <div class="footer_row">
-                <div class="footer_left_row">
-                    <div class="top_menu_row">
-                        <span><a href="https://discord.gg/Grandrp">Contactează-ne</a></span>
-                        <span><a href="https://rules.Grand-rp.ro">&nbsp;&nbsp;Regulament</a></span>
-						<!-- <span><a href="https://forum.Grand-rp.ro">Forum</a></span> -->
-                    </div>
-                    <div class="footer_bottom_row">
-                        <div class="footer-bottom-logo criminal">
-                            <img src="assets/images/footer_criminal.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="footer_right_row">
-                    <img src="assets/images/mans/index_footer_man.jpg">
-                </div>
-            </div>
-        </section>
-    </div>
-</div>
-<script src="assets/js/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script src="assets/js/app.js"></script>
-<script>load_info();</script>
+        </div>
+    </footer>
+
 </body>
+
 </html>
